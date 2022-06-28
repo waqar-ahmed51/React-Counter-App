@@ -1,23 +1,6 @@
 import React, { Component } from "react";
 
 class Counter extends Component {
-  state = { value: this.props.value, tags: ["tag1", "tag2", "tag3", "tag4"] };
-  styles = {
-    fontSize: 50,
-    fontWeight: "bold",
-  };
-
-  rednerTags() {
-    if (this.state.tags.length === 0) return <p>There are no Tags!</p>;
-    return (
-      <ul>
-        {this.state.tags.map((tag) => (
-          <li key={tag}>{tag}</li>
-        ))}
-      </ul>
-    );
-  }
-
   handleIncrement = () => {
     console.log("Increment Clicked!", this.state.value);
     this.setState({ value: this.state.value + 1 });
@@ -27,36 +10,31 @@ class Counter extends Component {
     // console.log("Props", this.props.id);
     return (
       <div>
-        {this.props.children}
-        <span style={this.styles} className={this.getBadgeClass()}>
-          {this.formatCounter()}
-        </span>
+        <span className={this.getBadgeClass()}>{this.formatCounter()}</span>
         <button
-          onClick={() => this.handleIncrement()}
+          onClick={() => this.props.onIncrement()}
           className={"btn btn-secondary btn-lg"}
         >
           Increment
         </button>
         <button
-          onClick={() => this.props.onDelete(this.props.id)}
+          onClick={() => this.props.onDelete(this.props.counter.id)}
           className="btn btn-danger btn-lg m-2"
         >
           Delete
         </button>
-        {this.state.tags.length === 0 && "Please create the new tag!"}
-        {this.rednerTags()}
       </div>
     );
   }
   getBadgeClass() {
     let classes = "badge badge-";
-    classes += this.state.value === 0 ? "warning m-2" : "primary m-2";
+    classes += this.props.counter.value === 0 ? "warning m-2" : "primary m-2";
     return classes;
   }
 
   formatCounter() {
-    const { value: count } = this.state;
-    return count === 0 ? <h1>Zero</h1> : count;
+    const { value } = this.props.counter;
+    return value === 0 ? "Zero" : value;
   }
 }
 
