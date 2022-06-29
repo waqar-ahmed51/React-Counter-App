@@ -39,7 +39,7 @@ state = {
       <div>
       <Navbar/>
       <Counters
-      counters={this.state.counters}
+        counters={this.state.counters}
         onReset={this.handleReset}
         onIncrement={this.handleIncrement}
         onDelete={this.handleDelete}
