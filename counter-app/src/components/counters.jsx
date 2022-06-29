@@ -3,19 +3,18 @@ import Counter from "./counter";
 
 class Counters extends Component {
   render() {
+    //Object Destrucing is used to remove this.props repetition.
+    const { onReset, onDelete, onIncrement, counters } = this.props;
     return (
       <div>
-        <button
-          onClick={this.props.onReset}
-          className="btn btn-primary btn-lg m-2"
-        >
+        <button onClick={onReset} className="btn btn-primary btn-lg m-2">
           Rest
         </button>
-        {this.props.counters.map((counter) => (
+        {counters.map((counter) => (
           <Counter
             key={counter.id}
-            onDelete={this.props.onDelete}
-            onIncrement={this.props.onIncrement}
+            onDelete={onDelete}
+            onIncrement={onIncrement}
             counter={counter}
           />
         ))}

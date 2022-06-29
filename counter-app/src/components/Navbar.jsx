@@ -1,8 +1,9 @@
-const Navbar = (props) => {
+const Navbar = ({ totalCounters }) => {
+  //Object Dustructing is used
   return (
     <div>
       <nav className="navbar bg-info">
-        <h1>Total Counters : {props.totalCounters}</h1>
+        <h1>Total Counters : {totalCounters}</h1>
       </nav>
     </div>
   );
