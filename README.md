@@ -2,7 +2,9 @@
 I started learning React core concepts and developed a basic counter app following a basic crash course on React by "Programming by Mosh" link of the video: https://www.youtube.com/watch?v=Ke90Tje7VS0
 
 I highly recommend this tutorial if you are new to ReactJs to learn all-important core concepts do follow this tutorial and build the application.
- 
+
+ ![React Counter App basic](https://user-images.githubusercontent.com/54082156/176452797-a5bfdce4-a2db-41a1-8a6f-2e7fcee2b117.gif)
+
 In this tutorial, I learned the following concepts and built a basic application as shown in this video to practice on concepts.
 - What is React
 - Setting Up the Development Environment 
