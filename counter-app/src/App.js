@@ -37,7 +37,7 @@ state = {
   render() { 
     return (
       <div>
-      <Navbar/>
+      <Navbar totalCounters={this.state.counters.length}/>
       <Counters
         counters={this.state.counters}
         onReset={this.handleReset}

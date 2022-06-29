@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar bg-info">
-          <h1>1</h1>
+          <h1>{this.props.totalCounters}</h1>
         </nav>
       </div>
     );
