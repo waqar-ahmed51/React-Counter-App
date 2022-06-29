@@ -1,5 +1,5 @@
 # React-Counter-App
-I started learning React core concepts and developed a basic counter app following a basic crash course on React by "Programming by Mosh" link of the video:https://www.youtube.com/watch?v=Ke90Tje7VS0.
+I started learning React core concepts and developed a basic counter app following a basic crash course on React by "Programming by Mosh" link of the video: https://www.youtube.com/watch?v=Ke90Tje7VS0
 
 I highly recommend this tutorial if you are new to ReactJs to learn all-important core concepts do follow this tutorial and build the application.
  
