@@ -1,10 +1,12 @@
 # React-Counter-App
 I started learning ReactJS core concepts and developed a basic counter app following a basic crash course on React by "Programming by Mosh" link of the video: https://www.youtube.com/watch?v=Ke90Tje7VS0
 
+ ![React Counter App basic](https://user-images.githubusercontent.com/54082156/176452797-a5bfdce4-a2db-41a1-8a6f-2e7fcee2b117.gif)
+
 I highly recommend this tutorial if you are new to ReactJS to learn all-important core concepts do follow this tutorial and build the application.
 
 In this tutorial, I learned the following concepts and built a basic application as shown in this video to practice on concepts.
- ![React Counter App basic](https://user-images.githubusercontent.com/54082156/176452797-a5bfdce4-a2db-41a1-8a6f-2e7fcee2b117.gif)
+
 - What is React
 - Setting Up the Development Environment 
 - Components
