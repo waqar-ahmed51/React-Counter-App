@@ -1,7 +1,8 @@
 # React-Counter-App
 I started learning ReactJS to learn core concepts I developed a basic counter app by following a basic crash course on ReactJS by a channel "Programming by Mosh" link of the video: https://www.youtube.com/watch?v=Ke90Tje7VS0
 
- ![React Counter App basic](https://user-images.githubusercontent.com/54082156/176452797-a5bfdce4-a2db-41a1-8a6f-2e7fcee2b117.gif)
+![React Counter App - Gif Demo](https://user-images.githubusercontent.com/54082156/179541950-8f2c6ab5-2fe7-44b8-990c-6961e714c3ec.gif)
+
 
 I highly recommend this tutorial if you are new to ReactJS to learn all-important core concepts do follow this tutorial and build the application.
 
